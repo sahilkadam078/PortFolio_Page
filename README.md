@@ -6,8 +6,7 @@ This portfolio showcases my skills, projects, learning journey, and future roadm
 ---
 
 ## 🚀 Live Demo
-👉 *(Add your deployed link here – GitHub Pages / Netlify)*  
-Example: `https://sahilkadam078.github.io/portfolio`
+👉 https://sahilkadam078.github.io/PortFolio_Page/index.html
 
 ---
 
