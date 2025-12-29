@@ -2,98 +2,145 @@
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Dashboard",
-    description: "A comprehensive admin dashboard for managing products, orders, and customer analytics. Features dark mode and real-time data visualization.",
-    techStack: ["React", "Tailwind CSS", "Recharts", "Node.js"],
+    title: "Airbnb Clone",
+    description: "A full-stack clone of Airbnb with listings, routing, and dynamic content rendering.",
+    techStack: ["Node.js", "Express", "MongoDB", "EJS"],
     category: "Full-Stack",
-    level: "Advanced",
-    type: "Real-world",
-    liveLink: "#",
-    githubLink: "#"
+    level: "Intermediate",
+    type: "Practice",
+    liveLink: "https://airbnb-clone-sahil.onrender.com/listings",
+    githubLink: "https://github.com/sahilkadam078/Major_Projects/tree/main/AirBnb_Clone"
   },
   {
     id: 2,
-    title: "Task Master API",
-    description: "RESTful API for a task management application with JWT authentication, role-based access control, and advanced filtering.",
-    techStack: ["Node.js", "Express", "MongoDB", "Jest"],
-    category: "Backend",
-    level: "Intermediate",
-    type: "Practice",
-    liveLink: "#",
-    githubLink: "#"
+    title: "Portfolio Page",
+    description: "My first personal portfolio page built while learning web development basics.",
+    techStack: ["HTML", "CSS"],
+    category: "Frontend",
+    level: "Beginner",
+    type: "College",
+    liveLink: "https://sahilkadam078.github.io/PortFolio_Page/index.html",
+    githubLink: "https://github.com/sahilkadam078/PortFolio_Page"
   },
   {
     id: 3,
-    title: "Portfolio V1",
-    description: "My first portfolio website built with simple HTML and CSS. A great learning experience in responsive design.",
+    title: "Smart Waste Management Portal (EcoTrack)",
+    description: "A web portal designed to spread awareness and manage waste efficiently as part of a smart city initiative.",
     techStack: ["HTML", "CSS", "JavaScript"],
-    category: "Frontend",
-    level: "Beginner",
+    category: "Full-Stack",
+    level: "Intermediate",
     type: "College",
     liveLink: "#",
     githubLink: "#"
   },
   {
     id: 4,
-    title: "AI Chat Interface",
-    description: "A clean, responsive chat interface integration with OpenAI's API. Supports markdown rendering and code highlighting.",
-    techStack: ["Vue.js", "OpenAI API", "CSS Modules"],
-    category: "Frontend",
-    level: "Intermediate",
-    type: "Practice",
-    liveLink: "#",
-    githubLink: "#"
-  },
-  {
-    id: 5,
-    title: "Social Media Graph",
-    description: "Backend service to model social relationships using a graph database. Optimized for friend suggestion queries.",
-    techStack: ["Python", "Neo4j", "Flask"],
-    category: "Backend",
-    level: "Advanced",
-    type: "Real-world",
-    liveLink: "#",
-    githubLink: "#"
-  },
-  {
-    id: 6,
-    title: "Weather Widget",
-    description: "A minimal weather widget that detects user location and shows current forecast. Uses local storage for preferences.",
-    techStack: ["Vanilla JS", "OpenWeather API", "CSS"],
+    title: "Simon Says Game",
+    description: "A memory-based game implemented using JavaScript event handling.",
+    techStack: ["HTML", "CSS", "JavaScript"],
     category: "Frontend",
     level: "Beginner",
     type: "Practice",
-    liveLink: "#",
-    githubLink: "#"
+    liveLink: "https://sahilkadam078.github.io/HTML_CSS_JS_Mini_Project/Simon_Says_Game/public/index.html",
+    githubLink: "https://github.com/sahilkadam078/HTML_CSS_JS_Mini_Project/tree/main/Simon_Says_Game"
+  },
+  {
+    id: 5,
+    title: "Rock Paper Scissors Game",
+    description: "A simple browser-based game using JavaScript logic and DOM manipulation.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    category: "Frontend",
+    level: "Beginner",
+    type: "Practice",
+    liveLink: "https://sahilkadam078.github.io/HTML_CSS_JS_Mini_Project/Rock_Paper_Scissors_Game/Public/index.html",
+    githubLink: "https://github.com/sahilkadam078/HTML_CSS_JS_Mini_Project/tree/main/Rock_Paper_Scissors_Game"
+  },
+  {
+    id: 6,
+    title: "To-Do App",
+    description: "A task management app with add, delete, and mark-complete features.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    category: "Frontend",
+    level: "Beginner",
+    type: "Practice",
+    liveLink: "https://sahilkadam078.github.io/HTML_CSS_JS_Mini_Project/to_do_app/public/index.html",
+    githubLink: "https://github.com/sahilkadam078/HTML_CSS_JS_Mini_Project/tree/main/to_do_app"
+  },
+  {
+    id: 7,
+    title: "Professional Website",
+    description: "A clean and responsive personal portfolio website showcasing skills and projects.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    category: "Frontend",
+    level: "Intermediate",
+    type: "Practice",
+    liveLink: "https://sahilkadam078.github.io/HTML_CSS_Mini_Project/Professional_Website/index.html",
+    githubLink: "https://github.com/sahilkadam078/HTML_CSS_Mini_Project/tree/main/Professional_Website"
+  },
+  {
+    id: 8,
+    title: "Spotify UI Clone",
+    description: "A frontend clone of Spotify focusing on layout, responsiveness, and UI accuracy.",
+    techStack: ["HTML", "CSS"],
+    category: "Frontend",
+    level: "Beginner",
+    type: "Practice",
+    liveLink: "https://sahilkadam078.github.io/HTML_CSS_Mini_Project/Project_2/public/index.html",
+    githubLink: "https://github.com/sahilkadam078/HTML_CSS_Mini_Project/tree/main/Project_2"
+  },
+  {
+    id: 9,
+    title: "Amazon UI Clone",
+    description: "A responsive Amazon homepage clone built to practice real-world UI layouts.",
+    techStack: ["HTML", "CSS"],
+    category: "Frontend",
+    level: "Beginner",
+    type: "Practice",
+    liveLink: "https://sahilkadam078.github.io/HTML_CSS_Mini_Project/Project_3/public/index.html",
+    githubLink: "https://github.com/sahilkadam078/HTML_CSS_Mini_Project/tree/main/Project_3"
+  },
+  
+  {
+    id: 10,
+    title: "Sidebar Menu Project",
+    description: "An interactive sidebar navigation menu built using JavaScript.",
+    techStack: ["HTML", "CSS"],
+    category: "Frontend",
+    level: "Beginner",
+    type: "Practice",
+    liveLink: "https://sahilkadam078.github.io/HTML_CSS_Mini_Project/Project_1/public/index.html",
+    githubLink: "https://github.com/sahilkadam078/HTML_CSS_Mini_Project/tree/main/Project_1"
   }
 ];
+
+
 
 // Data - Timeline
 const timelineData = [
   {
-    month: "Dec 2024",
-    title: "Mastering Next.js",
-    achievement: "Built a full-stack blog with Server Components."
+    month: "2026 (Current)",
+    title: "MERN Stack Learning",
+    achievement: "Building full-stack projects using MongoDB, Express, React, and Node.js."
+  },
+  {
+    month: "Dec 2025",
+    title: "Backend Fundamentals",
+    achievement: "Learned Node.js, Express, REST APIs, SQL and MongoDB basics."
   },
   {
     month: "Oct 2024",
-    title: "Backend Deep Dive",
-    achievement: "Learned System Design patterns and Microservices."
+    title: "JavaScript Deep Dive",
+    achievement: "Improved JavaScript fundamentals, DOM manipulation, and ES6 concepts."
   },
   {
-    month: "Aug 2024",
-    title: "Advanced React",
-    achievement: "Contributed to a major open-source UI library."
+    month: "Aug 2025",
+    title: "Frontend Development",
+    achievement: "Built responsive websites using HTML, CSS, and basic JavaScript."
   },
   {
-    month: "Jun 2024",
-    title: "First Freelance Gig",
-    achievement: "Delivered a custom Shopify theme for a client."
-  },
-  {
-    month: "Jan 2024",
-    title: "Started Journey",
-    achievement: "Completed Full-Stack Bootcamp with distinction."
+    month: "June 2025",
+    title: "Started Web Development",
+    achievement: "Began learning web development alongside BSc Computer Science studies."
   }
 ];
 
